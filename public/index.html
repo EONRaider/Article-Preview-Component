@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="css/style.css" />
-  <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
-  <title></title>
-</head>
-  <body></body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>Article Preview Component</title>
+  </head>
+  <body class="| bg-primary flex-center">
+    <div class="card">
+      <main class="content | bg-secondary flex-center">
+        <div class="content__image"></div>
+        <article class="content-article | flex-space">
+          <div class="content-article-text | flow">
+            <h1 class="content-article__title">Shift the overall look and feel by adding these wonderful touches to
+              furniture in your home</h1>
+            <p class="content-article__paragraph">Ever been in a room and felt like something was missing? Perhaps it
+              felt
+              slightly bare and uninviting. I’ve got some simple tips to help you make any room feel complete.</p>
+          </div>
+
+          <section class="content-article-socials | flex-space">
+            <div class="content-article-profile | flex-start">
+              <img class="content-article__avatar" src="images/avatar-michelle.jpg" alt="Michelle's avatar">
+              <div>
+                <h2 class="content-article__author">Michelle Appleton</h2>
+                <p class="content-article__date">28 Jun 2020</p>
+              </div>
+            </div>
+            <div class="content-article__share-icon"></div>
+          </section>
+        </article>
+      </main>
+    </div>
+  </body>
 </html>
